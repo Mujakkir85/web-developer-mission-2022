@@ -1,36 +1,34 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 50px;
     background-color: rgba(241, 245, 179, 0.623);
-}
 
+}
+section{
+    margin-bottom: 150px;
+}
 .intro{
     display: flex;
     width: 100%;
 }
 .class_one{
     width: 50%;
-    padding: 5%;
+    padding: 0% 5%;
     /*background-color: rgba(241, 245, 179, 0.623);*/
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 .class_one h1{
     font-size: 80px;
     font-weight: 500;
-    /*border-left: 5px solid ;
-    border-image: linear-gradient(red,tomato);
-    border-image-slice: 1;*/
     border-left: 5px solid tomato;
     border-radius: 3px;
     padding-left: 15px;
 }
 h1 span{
     color: rgba(255, 99, 71, 0.959);
-}
-.class_one p{
-    text-align: justify;
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 .button{
     text-decoration: none;
@@ -41,16 +39,18 @@ h1 span{
     border-radius: 5px ;
 }
 .class_one img{ 
-    width: 70%;
-    padding: 10%;
+    width: 80%;
+    padding-left: 20%;
 }
-/* End section one*/
+/* End of section one*/
 
+h1{
+    font-size: 50px;
+    font-weight: bold;
+} 
 
 .second-section h1{
-    text-align: center;
-    font-weight: bold;
-    font-size: 60px;
+    text-align: center;  
 }
 
 .section-two-img{
@@ -63,10 +63,10 @@ h1 span{
     padding: 2% 1%;
     box-shadow:10px 10px 30px grey;
     color: whitesmoke;
+    text-align: justify;
 }
 
 .mission{ 
-    margin-left: 10% ;
     margin-right: 2%;
     background-color: #008b68e8;
 }
@@ -79,6 +79,50 @@ h1 span{
 
 .goals{
     margin-left: 2% ;
-    margin-right: 10%;
     background-color: #0091A9;
+}
+
+/** End of section two**/
+
+.study-left{
+    width: 40%;
+}
+
+.study-right{
+    width: 60%;
+    padding-right: 3%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.study-left img{
+    width: 80%;
+    padding-bottom: 2%;
+}
+   
+/**End of section three**/
+
+
+.knowledge-left{
+    width: 60%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.knowledge-right{
+    width: 40%;
+}
+
+.knowledge-right img {
+    width: 80%;
+    padding-left: 10%;
+}
+
+/*End of Section four*/
+
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 15px 0;
 }
