@@ -1,7 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: rgba(241, 245, 179, 0.623);
 }
+
 .intro{
     display: flex;
     width: 100%;
@@ -9,22 +11,24 @@ body{
 .class_one{
     width: 50%;
     padding: 5%;
-    background-color: rgba(241, 245, 179, 0.623);
+    /*background-color: rgba(241, 245, 179, 0.623);*/
 }
 .class_one h1{
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 500;
     /*border-left: 5px solid ;
     border-image: linear-gradient(red,tomato);
     border-image-slice: 1;*/
     border-left: 5px solid tomato;
     border-radius: 3px;
+    padding-left: 15px;
 }
 h1 span{
     color: rgba(255, 99, 71, 0.959);
 }
 .class_one p{
     text-align: justify;
+    font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -42,3 +46,39 @@ h1 span{
 }
 /* End section one*/
 
+
+.second-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.section-two-img{
+    width: 30%;
+}
+
+.all-mission{
+    width: 30%;
+    border-radius: 17px;
+    padding: 2% 1%;
+    box-shadow:10px 10px 30px grey;
+    color: whitesmoke;
+}
+
+.mission{ 
+    margin-left: 10% ;
+    margin-right: 2%;
+    background-color: #008b68e8;
+}
+
+.vission{
+    margin-left: 2% ;
+    margin-right: 2%;
+    background-color: #008B7D;	
+}
+
+.goals{
+    margin-left: 2% ;
+    margin-right: 10%;
+    background-color: #0091A9;
+}
