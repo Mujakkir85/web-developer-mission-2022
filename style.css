@@ -93,6 +93,11 @@ h1{
     padding-right: 3%;
     text-align: justify;
     font-size: 20px;
+    background-image: url("images/shape-1.png");
+    background-repeat: no-repeat ;
+    background-size: 30%;
+    background-position-x: 115%;
+    
 }
 
 .study-left img{
@@ -107,6 +112,11 @@ h1{
     width: 60%;
     text-align: justify;
     font-size: 20px;
+
+    background-image: url("images/shape-1.png");
+    background-repeat: no-repeat ;
+    background-size: 30%;
+    background-position-x: -25%;
 }
 
 .knowledge-right{
